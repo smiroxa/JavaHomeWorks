@@ -3,7 +3,7 @@ package com.smiroha.base;
 public class Loops 
 {
     // Найти сумму четных чисел и их количество в диапазоне от 1 до 99
-    public static String first()
+    public static String sumAndCountEvenElements()
     {
         int sum = 0, count = 0;
         for (int i = 1; i < 99; i++) {
@@ -17,7 +17,7 @@ public class Loops
     }
 
 //  Проверить простое ли число? (число называется простым, если оно делится только само на себя и на 1)
-    public static boolean second(int in)
+    public static boolean isSimpleNumber(int in)
     {
         boolean response = true;
         for (int i = 2; i < in; i++) {
@@ -30,13 +30,20 @@ public class Loops
     }
     
 //  Найти корень натурального числа с точностью до целого (рассмотреть вариант последовательного подбора и метод бинарного поиска)    
-    public static int third(int a)
+    public static int mySqrt(int a)
     {
-        return 1;
+        int current = 1, i = 1;
+        while (current >= a)
+        {
+            System.out.println(current);
+            current = i * i;
+            i++;
+        }
+        return i;
     }
 
 //  Вычислить факториал числа n. n! = 1*2*…*n-1*n;!
-    public static int fourth(int a)
+    public static int myFactorial(int a)
     {
         int response = 1;
         if (a > 1)
@@ -49,17 +56,20 @@ public class Loops
     }
 
 //  Посчитать сумму цифр заданного числа
-    public static int fifth(int a)
+    public static int sumOfNumbers(int a)
     {
-//        while(n != 0)
-//        {
-//            sum = sum + (n % 10);
-//            n/=10;
-//        }
-        return 1; 
+        int result = 0;
+
+        while (a != 0)
+        {
+            result += a % 10;
+            a /= 10;
+        }
+        return result;
     }
+
 //  Вывести число, которое является зеркальным отображением последовательности цифр заданного числа, например, задано число 123, вывести 321.
-    public static int sixth(int a)
+    public static int reversNumbers(int a)
     {
         return 1;        
     }

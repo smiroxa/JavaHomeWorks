@@ -6,7 +6,6 @@ import org.junit.Test;
 import java.util.Arrays;
 
 import static junit.framework.Assert.assertTrue;
-import static junit.framework.TestCase.assertFalse;
 import static org.junit.Assert.assertEquals;
 
 
@@ -45,20 +44,20 @@ public class BaseTasksTest {
     @Test
     public void loopsTest()
     {
-        assertEquals(Loops.first(), "2450_49");
+        assertEquals(Loops.sumAndCountEvenElements(), "2450_49");
         
-        assertEquals(Loops.second(17), true);
-        assertEquals(Loops.second(21), false);
+        assertEquals(Loops.isSimpleNumber(17), true);
+        assertEquals(Loops.isSimpleNumber(21), false);
 
+        assertEquals(Loops.mySqrt(4), 1);
+        assertEquals(Loops.mySqrt(9), 1);
 
+        assertEquals(Loops.myFactorial(0), 1);
+        assertEquals(Loops.myFactorial(1), 1);
+        assertEquals(Loops.myFactorial(2), 2);
+        assertEquals(Loops.myFactorial(5), 120);
 
-        assertEquals(Loops.fourth(0), 1);
-        assertEquals(Loops.fourth(1), 1);
-        assertEquals(Loops.fourth(2), 2);
-        assertEquals(Loops.fourth(3), 6);
-        assertEquals(Loops.fourth(4), 24);
-        assertEquals(Loops.fourth(5), 120);
-        assertEquals(Loops.fourth(10), 3628800);
+        assertEquals(Loops.sumOfNumbers(1234), 10);
     }
 
     @Test

@@ -88,8 +88,10 @@ public class SimpleArray {
     public static int countOddElements(int[] arr)
     {
         int response = 0;
-        for (int currentElement : arr) {
-            if (currentElement % 2 != 0) {
+        for (int currentElement : arr)
+        {
+            if (currentElement % 2 != 0)
+            {
                 response++;
             }
         }
