@@ -14,31 +14,31 @@ public class BaseTasksTest {
     @Test
     public void conditionsTest()
     {
-        assertEquals(Conditions.first(1, 10), 11);
-        assertEquals(Conditions.first(5, 10), 15);
-        assertEquals(Conditions.first(10, 5), 50);
+        assertEquals(Conditions.sumOrAdd(1, 10), 11);
+        assertEquals(Conditions.sumOrAdd(5, 10), 15);
+        assertEquals(Conditions.sumOrAdd(10, 5), 50);
 
-        assertEquals(Conditions.second( 5,  5), 1);
-        assertEquals(Conditions.second(-5,  5), 2);
-        assertEquals(Conditions.second(-5, -5), 3);
-        assertEquals(Conditions.second( 5, -5), 4);
+        assertEquals(Conditions.findQuarter(5, 5), 1);
+        assertEquals(Conditions.findQuarter(-5, 5), 2);
+        assertEquals(Conditions.findQuarter(-5, -5), 3);
+        assertEquals(Conditions.findQuarter(5, -5), 4);
 
-        assertEquals(Conditions.third(-10, 10, 10), 20);
-        assertEquals(Conditions.third(10, -10, 10), 20);
-        assertEquals(Conditions.third(10, 10, -10), 20);
-        assertEquals(Conditions.third(-10, -10, -10), 0);
-        assertEquals(Conditions.third(10, 10, 10), 30);
+        assertEquals(Conditions.sumOfPositiveElements(-10, 10, 10), 20);
+        assertEquals(Conditions.sumOfPositiveElements(10, -10, 10), 20);
+        assertEquals(Conditions.sumOfPositiveElements(10, 10, -10), 20);
+        assertEquals(Conditions.sumOfPositiveElements(-10, -10, -10), 0);
+        assertEquals(Conditions.sumOfPositiveElements(10, 10, 10), 30);
 
-        assertEquals(Conditions.fourth(10, 10, 10), 1003);
-        assertEquals(Conditions.fourth(10, -10, 10), 13);
-        assertEquals(Conditions.fourth(10, 0, 10), 23);
+        assertEquals(Conditions.calculateMax(10, 10, 10), 1003);
+        assertEquals(Conditions.calculateMax(10, -10, 10), 13);
+        assertEquals(Conditions.calculateMax(10, 0, 10), 23);
 
-        assertEquals(Conditions.fifth(19), 'F');
-        assertEquals(Conditions.fifth(39), 'E');
-        assertEquals(Conditions.fifth(59), 'D');
-        assertEquals(Conditions.fifth(74), 'C');
-        assertEquals(Conditions.fifth(89), 'B');
-        assertEquals(Conditions.fifth(99), 'A');
+        assertEquals(Conditions.findStudentMark(19), 'F');
+        assertEquals(Conditions.findStudentMark(39), 'E');
+        assertEquals(Conditions.findStudentMark(59), 'D');
+        assertEquals(Conditions.findStudentMark(74), 'C');
+        assertEquals(Conditions.findStudentMark(89), 'B');
+        assertEquals(Conditions.findStudentMark(99), 'A');
     }
     
     @Test
@@ -49,8 +49,13 @@ public class BaseTasksTest {
         assertEquals(Loops.isSimpleNumber(17), true);
         assertEquals(Loops.isSimpleNumber(21), false);
 
-        assertEquals(Loops.mySqrt(4), 1);
-        assertEquals(Loops.mySqrt(9), 1);
+        assertEquals(Loops.mySqrtChecking(4), 2);
+        assertEquals(Loops.mySqrtChecking(9), 3);
+        assertEquals(Loops.mySqrtChecking(16), 4);
+
+        assertEquals(Loops.mySqrtBinSearch(121), 11);
+        assertEquals(Loops.mySqrtBinSearch(9), 3);
+        assertEquals(Loops.mySqrtBinSearch(16), 4);
 
         assertEquals(Loops.myFactorial(0), 1);
         assertEquals(Loops.myFactorial(1), 1);

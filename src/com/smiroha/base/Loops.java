@@ -30,17 +30,25 @@ public class Loops
     }
     
 //  Найти корень натурального числа с точностью до целого (рассмотреть вариант последовательного подбора и метод бинарного поиска)    
-    public static int mySqrt(int a)
+    public static int mySqrtChecking(int a)
     {
-        int current = 1, i = 1;
-        while (current >= a)
+        int i = 1;
+        while (i * i <= a)
         {
-            System.out.println(current);
-            current = i * i;
             i++;
         }
-        return i;
+        return i-1;
     }
+//    public static int mySqrtBinSearch(int a)
+//    {
+//        int response = a / 2;
+//        while ( response > a ) {
+//            current /= 2;
+//            current * current
+//            System.out.println("current /= 2 - " + current);
+//        }
+//        return current;
+//    }
 
 //  Вычислить факториал числа n. n! = 1*2*…*n-1*n;!
     public static int myFactorial(int a)

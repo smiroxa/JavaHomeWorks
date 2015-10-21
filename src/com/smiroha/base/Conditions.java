@@ -2,7 +2,7 @@ package com.smiroha.base;
 
 public class Conditions {
     // Если а – четное посчитать а*б, иначе а+б
-    public static int first(int a, int b)
+    public static int sumOrAdd(int a, int b)
     {
         int response;
         if (a % 2 == 0)
@@ -16,7 +16,7 @@ public class Conditions {
     }
 
     // Определить какой четверти принадлежит точка с координатами (х,у)
-    public static int second(int a, int b)
+    public static int findQuarter(int a, int b)
     {
         int response;
         if (a > 0 && b > 0)
@@ -36,7 +36,7 @@ public class Conditions {
     }
 
     //  Найти суммы только положительных из трех чисел
-    public static int third(int a, int b, int c)
+    public static int sumOfPositiveElements(int a, int b, int c)
     {
         int response = 0;
         if (a > 0)
@@ -55,7 +55,7 @@ public class Conditions {
     }
 
     //  Посчитать выражение макс(а*б*с, а+б+с)+3
-    public static int fourth(int a, int b, int c)
+    public static int calculateMax(int a, int b, int c)
     {
         int response;
         int x = a * b * c;
@@ -69,7 +69,7 @@ public class Conditions {
     }
 
     //  Написать программу определения оценки студента по его рейтингу, на основе следующих правил
-    public static char fifth(int a)
+    public static char findStudentMark(int a)
     {
         char response = 0;
         if (a >= 0 && a <= 19)

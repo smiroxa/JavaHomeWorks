@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c925c4c9-f3a8-4bc1-9be8-7305078cf6fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/HomeWorks/BaseTasksTest.class" afterPath="$PROJECT_DIR$/out/test/HomeWorks/BaseTasksTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeWorks/com/smiroha/base/Conditions.class" afterPath="$PROJECT_DIR$/out/production/HomeWorks/com/smiroha/base/Conditions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeWorks/com/smiroha/base/Function.class" afterPath="$PROJECT_DIR$/out/production/HomeWorks/com/smiroha/base/Function.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeWorks/com/smiroha/base/Loops.class" afterPath="$PROJECT_DIR$/out/production/HomeWorks/com/smiroha/base/Loops.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeWorks/com/smiroha/Main.class" afterPath="$PROJECT_DIR$/out/production/HomeWorks/com/smiroha/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeWorks/com/smiroha/base/SimpleArray.class" afterPath="$PROJECT_DIR$/out/production/HomeWorks/com/smiroha/base/SimpleArray.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/BaseTasksTest.java" afterPath="$PROJECT_DIR$/test/BaseTasksTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smiroha/base/Conditions.java" afterPath="$PROJECT_DIR$/src/com/smiroha/base/Conditions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smiroha/base/Loops.java" afterPath="$PROJECT_DIR$/src/com/smiroha/base/Loops.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smiroha/base/SimpleArray.java" afterPath="$PROJECT_DIR$/src/com/smiroha/base/SimpleArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HomeWorksBaseTasks.iws" />
@@ -36,9 +39,11 @@
       <file leaf-file-name="BaseTasksTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/BaseTasksTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.59029126" vertical-offset="734" max-vertical-offset="1764">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-              <folding />
+            <state vertical-scroll-proportion="0.22038835" vertical-offset="763" max-vertical-offset="1854">
+              <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,22 +51,12 @@
       <file leaf-file-name="Loops.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/smiroha/base/Loops.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1494">
-              <caret line="71" column="35" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="452" max-vertical-offset="1638">
+              <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
               <folding>
-                <element signature="e#1852#1853#0" expanded="true" />
-                <element signature="e#1884#1885#0" expanded="true" />
+                <element signature="e#2068#2069#0" expanded="true" />
+                <element signature="e#2100#2101#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/smiroha/base/SimpleArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1444" max-vertical-offset="2196">
-              <caret line="100" column="28" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -81,8 +76,9 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/smiroha/base/SimpleArray.java" />
-        <option value="$PROJECT_DIR$/src/com/smiroha/base/Loops.java" />
+        <option value="$PROJECT_DIR$/src/com/smiroha/base/Conditions.java" />
         <option value="$PROJECT_DIR$/test/BaseTasksTest.java" />
+        <option value="$PROJECT_DIR$/src/com/smiroha/base/Loops.java" />
       </list>
     </option>
   </component>
@@ -231,7 +227,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hprolog" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RunManager" selected="JUnit.BaseTasksTest.loopsTest">
@@ -444,6 +440,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22889842" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -452,7 +449,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13638757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25487098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2630085" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -463,7 +460,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -484,6 +480,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="develop loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="develop loops" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -500,7 +498,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1404" max-vertical-offset="1620">
           <caret line="87" column="94" selection-start-line="87" selection-start-column="94" selection-end-line="87" selection-end-column="94" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -540,7 +540,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1404" max-vertical-offset="1620">
           <caret line="87" column="94" selection-start-line="87" selection-start-column="94" selection-end-line="87" selection-end-column="94" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -580,7 +582,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1485">
           <caret line="87" column="94" selection-start-line="87" selection-start-column="94" selection-end-line="87" selection-end-column="94" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -588,7 +592,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="1350">
           <caret line="81" column="78" selection-start-line="81" selection-start-column="78" selection-end-line="81" selection-end-column="78" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -596,7 +602,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="790" max-vertical-offset="1260">
           <caret line="71" column="74" selection-start-line="71" selection-start-column="74" selection-end-line="71" selection-end-column="74" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -623,14 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/smiroha/base/Conditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1605">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ReadMe.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -650,30 +650,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/smiroha/base/Loops.java">
+    <entry file="file://$PROJECT_DIR$/src/com/smiroha/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1494">
-          <caret line="71" column="35" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="35" />
-          <folding>
-            <element signature="e#1852#1853#0" expanded="true" />
-            <element signature="e#1884#1885#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.047872342" vertical-offset="0" max-vertical-offset="752">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/smiroha/base/SimpleArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1444" max-vertical-offset="2196">
+        <state vertical-scroll-proportion="0.8430851" vertical-offset="1166" max-vertical-offset="2196">
           <caret line="100" column="28" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smiroha/base/Conditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21010639" vertical-offset="1120" max-vertical-offset="1926">
+          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smiroha/base/Loops.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="452" max-vertical-offset="1638">
+          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+          <folding>
+            <element signature="e#2068#2069#0" expanded="true" />
+            <element signature="e#2100#2101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/BaseTasksTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.59029126" vertical-offset="734" max-vertical-offset="1764">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding />
+        <state vertical-scroll-proportion="0.22038835" vertical-offset="763" max-vertical-offset="1854">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
