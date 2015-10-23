@@ -39,16 +39,18 @@ public class Loops
         }
         return i-1;
     }
-//    public static int mySqrtBinSearch(int a)
-//    {
-//        int response = a / 2;
-//        while ( response > a ) {
-//            current /= 2;
-//            current * current
-//            System.out.println("current /= 2 - " + current);
-//        }
-//        return current;
-//    }
+    public static int mySqrtBinSearch(int a)
+    {
+        int roughSelectionMin = a / 2;
+        while ( roughSelectionMin * roughSelectionMin >= a ) {
+            roughSelectionMin /= 2;
+        }
+        while (roughSelectionMin * roughSelectionMin < a)
+        {
+            roughSelectionMin++;
+        }
+        return roughSelectionMin;
+    }
 
 //  Вычислить факториал числа n. n! = 1*2*…*n-1*n;!
     public static int myFactorial(int a)
@@ -67,7 +69,6 @@ public class Loops
     public static int sumOfNumbers(int a)
     {
         int result = 0;
-
         while (a != 0)
         {
             result += a % 10;
@@ -79,7 +80,14 @@ public class Loops
 //  Вывести число, которое является зеркальным отображением последовательности цифр заданного числа, например, задано число 123, вывести 321.
     public static int reversNumbers(int a)
     {
-        return 1;        
+        int response = 0;
+        while (a != 0)
+        {
+            response = response * 10 + (a % 10);
+            a = a /10;
+            
+        }
+        return response;        
     }
-
+    
 }

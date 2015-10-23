@@ -53,9 +53,12 @@ public class BaseTasksTest {
         assertEquals(Loops.mySqrtChecking(9), 3);
         assertEquals(Loops.mySqrtChecking(16), 4);
 
-        assertEquals(Loops.mySqrtBinSearch(121), 11);
+        assertEquals(Loops.mySqrtBinSearch(4), 2);
         assertEquals(Loops.mySqrtBinSearch(9), 3);
         assertEquals(Loops.mySqrtBinSearch(16), 4);
+        assertEquals(Loops.mySqrtBinSearch(25), 5);
+        assertEquals(Loops.mySqrtBinSearch(36), 6);
+        assertEquals(Loops.mySqrtBinSearch(121), 11);
 
         assertEquals(Loops.myFactorial(0), 1);
         assertEquals(Loops.myFactorial(1), 1);
@@ -63,6 +66,10 @@ public class BaseTasksTest {
         assertEquals(Loops.myFactorial(5), 120);
 
         assertEquals(Loops.sumOfNumbers(1234), 10);
+        assertEquals(Loops.sumOfNumbers(1000), 1);
+
+        assertEquals(Loops.reversNumbers(1234), 4321);
+        assertEquals(Loops.reversNumbers(6789), 9876);
     }
 
     @Test
