@@ -46,11 +46,10 @@ public class Loops
     {
         int response = a;
 
-        while ( response * response > a )
-        {
+        while (response * response > a) {
             response /= 2;
         }
-        while ( response * response < a ) {
+        while (response * response < a) {
             response++;
         }
         return response;

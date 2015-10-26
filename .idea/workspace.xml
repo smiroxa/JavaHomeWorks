@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c925c4c9-f3a8-4bc1-9be8-7305078cf6fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/baseTest/ConditionsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/baseTest/FunctionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/baseTest/LoopsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/baseTest/SimpleArrayTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/BaseTasksTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeWorks/com/smiroha/base/Loops.class" afterPath="$PROJECT_DIR$/out/production/HomeWorks/com/smiroha/base/Loops.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smiroha/base/Loops.java" afterPath="$PROJECT_DIR$/src/com/smiroha/base/Loops.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smiroha/base/SimpleArray.java" afterPath="$PROJECT_DIR$/src/com/smiroha/base/SimpleArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/baseTest/LoopsTest.java" afterPath="$PROJECT_DIR$/test/baseTest/LoopsTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HomeWorksBaseTasks.iws" />
@@ -52,11 +47,11 @@
         <option value="$PROJECT_DIR$/test/ConditionsTest.java" />
         <option value="$PROJECT_DIR$/test/baseTest/ConditionsTest.java" />
         <option value="$PROJECT_DIR$/test/BaseTasksTest.java" />
-        <option value="$PROJECT_DIR$/src/com/smiroha/base/Loops.java" />
         <option value="$PROJECT_DIR$/src/com/smiroha/base/SimpleArray.java" />
-        <option value="$PROJECT_DIR$/test/baseTest/LoopsTest.java" />
         <option value="$PROJECT_DIR$/test/baseTest/SimpleArrayTest.java" />
         <option value="$PROJECT_DIR$/test/baseTest/FunctionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/smiroha/base/Loops.java" />
+        <option value="$PROJECT_DIR$/test/baseTest/LoopsTest.java" />
       </list>
     </option>
   </component>
@@ -663,30 +658,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/smiroha/base/Loops.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3703704" vertical-offset="1089" max-vertical-offset="1818">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/junit/framework/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.012784091" vertical-offset="9" max-vertical-offset="1692">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
           <folding>
             <element signature="e#0#4376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/baseTest/LoopsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4893204" vertical-offset="0" max-vertical-offset="2448">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -721,6 +698,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.034951456" vertical-offset="0" max-vertical-offset="1030">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/baseTest/LoopsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1400" max-vertical-offset="2430">
+          <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smiroha/base/Loops.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.021359224" vertical-offset="770" max-vertical-offset="1800">
+          <caret line="44" column="37" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="37" />
           <folding />
         </state>
       </provider>

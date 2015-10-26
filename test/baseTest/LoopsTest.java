@@ -1,7 +1,6 @@
 package baseTest;
 
 import com.smiroha.base.Loops;
-
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -56,19 +55,19 @@ public class LoopsTest {
     @Test
     public void mySqrtBinSearchTest1()
     {
-        int result = Loops.mySqrtChecking(121);
+        int result = Loops.mySqrtBinSearch(121);
         assertEquals(result, 11);
     }
     @Test
     public void mySqrtBinSearchTest2()
     {
-        int result = Loops.mySqrtChecking(16);
+        int result = Loops.mySqrtBinSearch(16);
         assertEquals(result, 4);
     }
     @Test
     public void mySqrtBinSearchTest3()
     {
-        int result = Loops.mySqrtChecking(9);
+        int result = Loops.mySqrtBinSearch(9);
         assertEquals(result, 3);
     }
 
