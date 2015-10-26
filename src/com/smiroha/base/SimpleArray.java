@@ -101,7 +101,7 @@ public class SimpleArray {
     public static int[] replaceHalfArray(int[] arr)
     {
         int half = arr.length / 2;
-        int div = half + arr.length % 2; // на случай нечетного количества элементов в массиве
+        int div = half + arr.length % 2;
         for (int i = 0; i < div; i++)
         {
             int currentElement = arr[i];

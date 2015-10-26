@@ -3,7 +3,7 @@ package com.smiroha.base;
 public class Loops 
 {
     // Найти сумму четных чисел и их количество в диапазоне от 1 до 99
-    public static String sumAndCountEvenElements()
+    public static int[] sumAndCountEvenElements()
     {
         int sum = 0, count = 0;
         for (int i = 1; i < 99; i++) {
@@ -13,7 +13,7 @@ public class Loops
                 count++;
             }
         }
-    return sum + "_" + count;
+    return new int[] {sum, count};
     }
 
 //  Проверить простое ли число? (число называется простым, если оно делится только само на себя и на 1)
@@ -29,7 +29,8 @@ public class Loops
         return response;
     }
     
-//  Найти корень натурального числа с точностью до целого (рассмотреть вариант последовательного подбора и метод бинарного поиска)    
+// Найти корень натурального числа с точностью до целого (рассмотреть вариант последовательного подбора и метод бинарного поиска)
+// Вариант последовательного подбора
     public static int mySqrtChecking(int a)
     {
         int i = 1;
@@ -39,16 +40,21 @@ public class Loops
         }
         return i-1;
     }
-//    public static int mySqrtBinSearch(int a)
-//    {
-//        int response = a / 2;
-//        while ( response > a ) {
-//            current /= 2;
-//            current * current
-//            System.out.println("current /= 2 - " + current);
-//        }
-//        return current;
-//    }
+
+// Метод бинарного поиска
+    public static int mySqrtBinSearch(int a)
+    {
+        int response = a;
+
+        while ( response * response > a )
+        {
+            response /= 2;
+        }
+        while ( response * response < a ) {
+            response++;
+        }
+        return response;
+    }
 
 //  Вычислить факториал числа n. n! = 1*2*…*n-1*n;!
     public static int myFactorial(int a)
@@ -67,7 +73,6 @@ public class Loops
     public static int sumOfNumbers(int a)
     {
         int result = 0;
-
         while (a != 0)
         {
             result += a % 10;
@@ -79,7 +84,12 @@ public class Loops
 //  Вывести число, которое является зеркальным отображением последовательности цифр заданного числа, например, задано число 123, вывести 321.
     public static int reversNumbers(int a)
     {
-        return 1;        
+        int result = 0;
+        while (a > 0)
+        {
+            result = (result + (a % 10)) * 10;
+            a = a / 10;
+        }
+        return result / 10;
     }
-
 }
