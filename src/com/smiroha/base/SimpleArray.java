@@ -1,42 +1,44 @@
 package com.smiroha.base;
 
+import java.util.Arrays;
+
 public class SimpleArray {
 
 //  Найти минимальный элемент массива
     public static int minElement (int[] arr)
     {
         int response = arr[0];
-        for (int i = 1; i < arr.length; i++) 
+        for (int i = 1; i < arr.length; i++)
         {
-            if (arr[i] < response) 
+            if (arr[i] < response)
             {
                 response = arr[i];
             }
         }
         return response;
     }
-    
+
 //  Найти максимальный элемент массива
     public static int maxElement (int[] arr)
     {
         int response = arr[0];
-        for (int i = 1; i < arr.length; i++) 
+        for (int i = 1; i < arr.length; i++)
         {
-            if (arr[i] > response) 
+            if (arr[i] > response)
             {
                 response = arr[i];
             }
         }
         return response;
     }
-    
+
 //  Найти индекс минимального элемента массива
     public static int indexMinElement(int[] arr)
     {
         int response = 0, minValue = arr[0];
-        for (int i = 1; i < arr.length; i++) 
+        for (int i = 1; i < arr.length; i++)
         {
-            if (arr[i] < minValue) 
+            if (arr[i] < minValue)
             {
                 response = i;
                 minValue = arr[i];
@@ -44,14 +46,14 @@ public class SimpleArray {
         }
         return response;
     }
-    
+
 //  Найти индекс максимального элемента массива
     public static int indexMaxElement(int[] arr)
     {
         int response = 0, maxValue = arr[0];
-        for (int i = 1; i < arr.length; i++) 
+        for (int i = 1; i < arr.length; i++)
         {
-            if (arr[i] > maxValue) 
+            if (arr[i] > maxValue)
             {
                 response = i;
                 maxValue = arr[i];
@@ -83,7 +85,7 @@ public class SimpleArray {
         }
     return response;
     }
-    
+
 //  Посчитать количество нечетных элементов массива
     public static int countOddElements(int[] arr)
     {
@@ -109,8 +111,45 @@ public class SimpleArray {
             arr[div + i] = currentElement;
         }
         return arr;
-
     }
+
 //  Отсортировать массив (пузырьком (Bubble), выбором (Select), вставками (Insert))
+    public static int[] BubbleSort(int[] arr)
+    {
+        for (int lengthIn = arr.length; lengthIn > 0; lengthIn--)
+        {
+            for (int currSwap = 0; currSwap < lengthIn-1; currSwap++)
+            {
+                if (arr[currSwap] > arr[currSwap + 1])
+                {
+                    int curElement  = arr[currSwap];
+                    arr[currSwap] = arr[currSwap + 1];
+                    arr[currSwap + 1] = curElement;
+                }
+            }
+        }
+        return arr;
+    }
+    public static int[] selectionSort(int[] arr)
+    {
+        return new int[]{1,2,3};
+    }
+
 //  Отсортировать массив (Quick, Merge, Shell, Heap)
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

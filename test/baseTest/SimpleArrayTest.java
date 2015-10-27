@@ -2,6 +2,7 @@ package baseTest;
 
 
 import com.smiroha.base.SimpleArray;
+import junit.framework.TestCase;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -132,5 +133,26 @@ public class SimpleArrayTest {
     {
         int[] result = SimpleArray.replaceHalfArray(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10});
         assertTrue(Arrays.equals(result, new int[]{6, 7, 8, 9, 10, 1, 2, 3, 4, 5}));
+    }
+
+
+    @Test
+    public void BubbleSortTest1()
+    {
+        int[] result = SimpleArray.BubbleSort(new int[]{5, 4, 3, 2, 1});
+        assertTrue(Arrays.equals(result, new int[]{1, 2, 3, 4, 5}));
+    }
+    @Test
+    public void BubbleSortTest2()
+    {
+        int[] result = SimpleArray.BubbleSort(new int[]{10, 9, 8, 7, 6, 5, 4, 3, 2, 1});
+        assertTrue(Arrays.equals(result, new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}));
+    }
+    @Test
+    public void BubbleSortTest3()
+    {
+        int[] result = SimpleArray.BubbleSort(new int[]{0, 0, 2, 10, 5, 4, 8, 1, 0, 7, 9, 0, 11, 12, 0, 14, 15});
+        System.out.println(Arrays.toString(result));
+        assertTrue(Arrays.equals(result, new int[]{0, 0, 0, 0, 0, 1, 2, 4, 5, 7, 8, 9, 10, 11, 12, 14, 15}));
     }
 }
