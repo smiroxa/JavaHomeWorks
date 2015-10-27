@@ -124,6 +124,4 @@ public class LoopsTest {
         int result = Loops.reversNumbers(321);
         assertEquals(result, 123);
     }
-
-
 }
