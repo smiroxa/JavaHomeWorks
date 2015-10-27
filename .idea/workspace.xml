@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c925c4c9-f3a8-4bc1-9be8-7305078cf6fd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smiroha/base/Function.java" afterPath="$PROJECT_DIR$/src/com/smiroha/base/Function.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/baseTest/FunctionTest.java" afterPath="$PROJECT_DIR$/test/baseTest/FunctionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/baseTest/LoopsTest.java" afterPath="$PROJECT_DIR$/test/baseTest/LoopsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HomeWorksBaseTasks.iws" />
@@ -46,9 +42,14 @@
       <file leaf-file-name="Function.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/smiroha/base/Function.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4632207" vertical-offset="322" max-vertical-offset="840">
-              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-              <folding />
+            <state vertical-scroll-proportion="0.73161036" vertical-offset="442" max-vertical-offset="945">
+              <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+              <folding>
+                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
+                <element signature="e#1239#1240#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -626,12 +627,17 @@
       <workItem from="1445291700160" duration="4186000" />
       <workItem from="1445296937222" duration="7250000" />
       <workItem from="1445329657837" duration="112000" />
-      <workItem from="1445893523263" duration="3528000" />
+      <workItem from="1445893523263" duration="3749000" />
     </task>
+    <task id="LOCAL-00001" summary="develop functions">
+      <created>1445928980316</created>
+      <updated>1445928980316</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25994000" />
+    <option name="totallyTimeSpent" value="26215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="832" extended-state="0" />
@@ -681,7 +687,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="develop loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="develop loops" />
+    <MESSAGE value="develop functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="develop functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -705,7 +712,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="324">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -737,7 +749,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="324">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -901,9 +918,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/smiroha/base/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4632207" vertical-offset="322" max-vertical-offset="840">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-          <folding />
+        <state vertical-scroll-proportion="0.73161036" vertical-offset="442" max-vertical-offset="945">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+          <folding>
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

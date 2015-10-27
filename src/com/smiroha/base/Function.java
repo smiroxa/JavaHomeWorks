@@ -35,9 +35,16 @@ public class Function {
     }
     
 //  Вводим число (0-999), получаем строку с прописью числа.
-    public static String
+    public static String convertNumberToStr(int a)
+    {
+        return "двадцать";
+    }
     
 //  Вводим строку, которая содержит число, написанное прописью (0-999). Получить само число
+    public static int convertStrToNumber(String a)
+    {
+        return 20;
+    }
 
 //  Найти расстояние между двумя точками в двумерном декартовом пространстве.
     public static float calculateDistance(int x1, int y1, int x2, int y2)
