@@ -152,7 +152,13 @@ public class SimpleArrayTest {
     public void BubbleSortTest3()
     {
         int[] result = SimpleArray.BubbleSort(new int[]{0, 0, 2, 10, 5, 4, 8, 1, 0, 7, 9, 0, 11, 12, 0, 14, 15});
-        System.out.println(Arrays.toString(result));
         assertTrue(Arrays.equals(result, new int[]{0, 0, 0, 0, 0, 1, 2, 4, 5, 7, 8, 9, 10, 11, 12, 14, 15}));
+    }
+
+    @Test
+    public void selectionSortTest1()
+    {
+        int[] result = SimpleArray.selectionSort(new int[]{89, 54, 3, 99, 18});
+        assertTrue(Arrays.equals(result, new int[]{3, 18, 54, 89, 99}));
     }
 }

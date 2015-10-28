@@ -113,6 +113,7 @@ public class SimpleArray {
         return arr;
     }
 
+
 //  Отсортировать массив (пузырьком (Bubble), выбором (Select), вставками (Insert))
     public static int[] BubbleSort(int[] arr)
     {
@@ -130,9 +131,28 @@ public class SimpleArray {
         }
         return arr;
     }
+
     public static int[] selectionSort(int[] arr)
     {
-        return new int[]{1,2,3};
+        System.out.println("Входной массив arr - " + Arrays.toString(arr) + "\n\n");
+        int min;
+
+        for(int OutIterations = 0; OutIterations < arr.length - 1; OutIterations++)
+        {
+            min = OutIterations;
+            for(int CountInIterations = OutIterations; CountInIterations < arr.length; CountInIterations++)
+            {
+                if(arr[CountInIterations] < arr[min] )
+                {
+                    min = CountInIterations;
+                }
+            int temp  = arr[min];
+            arr[min] = arr[min - 1];
+            arr[min - 1] = temp;
+            }
+        }
+        System.out.println(Arrays.toString(arr));
+        return arr;
     }
 
 //  Отсортировать массив (Quick, Merge, Shell, Heap)
