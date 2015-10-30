@@ -134,7 +134,6 @@ public class SimpleArray {
 
     public static int[] selectionSort(int[] arr)
     {
-        System.out.println("Входной массив arr - " + Arrays.toString(arr) + "\n\n");
         int min;
 
         for(int OutIterations = 0; OutIterations < arr.length - 1; OutIterations++)
@@ -146,10 +145,10 @@ public class SimpleArray {
                 {
                     min = CountInIterations;
                 }
-            int temp  = arr[min];
-            arr[min] = arr[min - 1];
-            arr[min - 1] = temp;
             }
+            int temp  = arr[OutIterations];
+            arr[OutIterations] = arr[min];
+            arr[min] = temp;
         }
         System.out.println(Arrays.toString(arr));
         return arr;
