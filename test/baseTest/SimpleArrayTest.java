@@ -161,4 +161,11 @@ public class SimpleArrayTest {
         int[] result = SimpleArray.selectionSort(new int[]{89, 54, 3, 99, 18});
         assertTrue(Arrays.equals(result, new int[]{3, 18, 54, 89, 99}));
     }
+
+    @Test
+    public void insertionSortTest1()
+    {
+        int[] result = SimpleArray.selectionSort(new int[]{3, 2, 1});
+        assertTrue(Arrays.equals(result, new int[]{1, 2, 3}));
+    }
 }

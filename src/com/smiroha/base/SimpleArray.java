@@ -152,6 +152,11 @@ public class SimpleArray {
         return arr;
     }
 
+    public static int[] insertionSort(int[] arr)
+    {
+        return new int[]{1,2,3};
+    }
+
 //  Отсортировать массив (Quick, Merge, Shell, Heap)
 }
 
