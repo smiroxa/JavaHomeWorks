@@ -1,6 +1,5 @@
 package com.smiroha.base;
 
-import java.util.Arrays;
 
 public class SimpleArray {
 
@@ -150,7 +149,6 @@ public class SimpleArray {
             arr[OutIterations] = arr[min];
             arr[min] = temp;
         }
-        System.out.println(Arrays.toString(arr));
         return arr;
     }
 

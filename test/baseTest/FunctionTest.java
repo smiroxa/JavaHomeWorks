@@ -1,7 +1,6 @@
 package baseTest;
 
 import com.smiroha.base.Function;
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
