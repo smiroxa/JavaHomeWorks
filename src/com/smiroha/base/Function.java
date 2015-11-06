@@ -37,6 +37,7 @@ public class Function {
 //  Вводим число (0-999), получаем строку с прописью числа.
     public static String convertNumberToStr(int a)
     {
+
         return "двадцать";
     }
     

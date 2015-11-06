@@ -1,6 +1,8 @@
 package com.smiroha.base;
 
 
+import java.util.Arrays;
+
 public class SimpleArray {
 
 //  Найти минимальный элемент массива
@@ -154,10 +156,25 @@ public class SimpleArray {
 
     public static int[] insertionSort(int[] arr)
     {
-        return new int[]{1,2,3};
+        {
+            int j, value;
+
+            for(int i = 1; i < arr.length; i++)
+            {
+                value = arr[i];
+                for (j = i - 1; j >= 0 && arr[j] > value; j--)
+                {
+                    arr[j + 1] = arr[j];
+                }
+                arr[j + 1] = value;
+            }
+        }
+        return arr;
     }
 
 //  Отсортировать массив (Quick, Merge, Shell, Heap)
+// http://edunow.su/site/content/algorithms/sortirovka_massiva
+
 }
 
 

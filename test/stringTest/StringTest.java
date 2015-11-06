@@ -58,10 +58,10 @@ public class StringTest
         int response = Strings.convertStringToRealNumber("100");
         assertEquals(response, 100);
     }
-    @Test
-    public void convertStringToNumberTest4()
-    {
-        float response = Strings.convertStringToNumber("100.00");
-        System.out.println(response);
-    }
+//    @Test
+//    public void convertStringToNumberTest4()
+//    {
+//        float response = Strings.convertStringToNumber("100.00");
+//        assertEquals(response, 100.00);
+//    }
 }
